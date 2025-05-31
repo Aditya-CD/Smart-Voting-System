@@ -2,7 +2,7 @@ from sklearn.neighbors import KNeighborsClassifier
 
 import cv2
 import pickle
-import numpy as np
+import numpy as np #numpy is used for numerical operations
 import os
 import csv
 import time
