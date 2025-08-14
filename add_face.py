@@ -16,7 +16,7 @@ def start_face_capture():
         dialog = ctk.CTkToplevel()
         dialog.title("Enter Aadhar Number")
         dialog.geometry("400x200")
-        dialog.resizable(False, False)
+        dialog.resizable(True, True)
 
         # Submit function
         def submit():
